@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+p{ padding:10px 0px;}
+/*表单标题*/
+.form-legend{}
+
+
+/*input文本*/
+.input-text{ height:20px; line-height:20px; padding:5px 5px; border-radius:3px; border:1px solid #ddd; color:#666; }
+.input-text:focus { background-color:#fafffe; border-color:#3bb4f2; outline:0; -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075), 0 0 5px rgba(59,180,242,.3); box-shadow:inset 0 1px 1px rgba(0,0,0,.075), 0 0 5px rgba(59,180,242,.3) }
+
+/*按钮*/
+.btn-default{ display:inline-block; width:200px; height:40px; line-height:40px; border-radius:5px; text-align:center; color:#fff; background:#0085d0; font-size:16px; font-weight:800;}
+.btn-default:hover{ background:#0273b2;}
+
+/*文本框*/
+.textarea-text{ line-height:20px; padding:5px 5px; font-size:12px; border-radius:3px; border:1px solid #ddd; color:#666; }
+.textarea-text:focus { background-color:#fafffe; border-color:#3bb4f2; outline:0; -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075), 0 0 5px rgba(59,180,242,.3); box-shadow:inset 0 1px 1px rgba(0,0,0,.075), 0 0 5px rgba(59,180,242,.3) }
+
+/*单选框*/
+.radio-group{ padding:10px 0px;}
+.radio-inline { display:inline-block; vertical-align:middle; font-weight:400; cursor:pointer; height:30px; line-height:20px; padding:0px 10px; text-indent:5px; }
+.radio-inline { float:left; margin-top:3px; }
+
+/*复选框*/
+.checkbox-group{ padding:10px 0px;}
+.checkbox-inline { display:inline-block; vertical-align:middle; font-weight:400; cursor:pointer; height:30px; line-height:20px; padding:0px 10px; text-indent:5px; }
+.checkbox-inline input { float:left; margin-top:3px; }
+
+
+/*下拉框*/
+.select-group{ padding:10px 0px;}
+.select01 { display:block; width:100%; padding:5px; font-size:14px; line-height:20px; color:#555; vertical-align:middle; background-color:#fff; background-image:none; border:1px solid #ccc; border-radius:2px; -webkit-transition:border-color .15s ease-in-out, box-shadow .15s ease-in-out; transition:border-color .15s ease-in-out, box-shadow .15s ease-in-out; }
+.select01 { -webkit-appearance:none!important; -webkit-border-radius:2px;  }
+.select01:focus:focus { background-color:#fafffe; border-color:#3bb4f2; outline:0; -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075), 0 0 5px rgba(59,180,242,.3); box-shadow:inset 0 1px 1px rgba(0,0,0,.075), 0 0 5px rgba(59,180,242,.3) }
+option { font:inherit; }
+
+/*去iphone input 内阴影 */
+{ -webkit-appearance:none;}

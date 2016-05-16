@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+/*网站内容*/
+.container{ width:960px; margin:0px auto;}
+
+/*头部*/
+.header{ width:960px; margin:0px auto;}
+
+/*头部*/
+#header{ background:url(../images/cssimg/head_bg.jpg); background-color:#fff; margin-top:0px;}
+.header{ width:960px; margin:0px auto;}
+
+/*导航*/
+.nav{ width:960px; margin:0px auto;}
+
+/*导航*/
+#nav{ background:url(../images/cssimg/nav_bg.jpg); background-color:#fff; margin-top:0px;}
+.nav{ width:960px; margin:0px auto;}
+
+/*flash动画*/
+.flash{ width:960px; margin:0px auto;}
+
+/*flash动画*/
+#flash{ background:url(../images/cssimg/flash_bg.jpg); background-color:#fff; margin-top:0px;}
+.flash{ width:960px; margin:0px auto;}
+
+/*图片切换*/
+.banner{ height:340px; background:url(../images/tempimg/banner.jpg) no-repeat center top;}
+
+/*图片切换*/
+#banner{ background:url(../images/cssimg/banner_bg.jpg); background-color:#fff; margin-top:0px;}
+.banner{ width:960px; margin:0px auto;}
+
+/*搜索*/
+.search{ width:960px; margin:0px auto;}
+
+/*搜索*/
+#search{ background:url(../images/cssimg/search_bg.jpg); background-color:#fff; margin-top:0px;}
+.search{ width:960px; margin:0px auto;}
+
+/*网站主体*/
+.main{ width:960px; margin:0px auto;}
+
+/*网站主体*/
+#main{ background:url(../images/cssimg/main_bg.jpg); background-color:#fff; margin-top:0px;}
+.main{ width:960px; margin:0px auto;}
+
+/*网站内页主体*/
+.inner{ width:960px; margin:0px auto;}
+
+/*网站内页主体*/
+#inner{ background:url(../images/cssimg/inner_bg.jpg); background-color:#fff; margin-top:0px;}
+.inner{ width:960px; margin:0px auto;}
+
+/*友情链接*/
+.links{ width:960px; margin:0px auto;}
+
+/*友情链接*/
+#links{ background:url(../images/cssimg/links_bg.jpg); background-color:#fff; margin-top:0px;}
+.links{ width:960px; margin:0px auto;}
+
+/*底部*/
+.footer{ width:960px; margin:0px auto;}
+
+/*底部*/
+#footer{ background:url(../images/cssimg/footer_bg.jpg); background-color:#fff; margin-top:0px;}
+.footer{ width:960px; margin:0px auto;}
+
+
+/*区域*/
+.section{ width:960px; margin:0px auto;}
+/*区域*/
+#section{ background:url(../images/cssimg/section_bg.jpg); background-color:#fff; margin-top:0px;}
+.section{ width:960px; margin:0px auto;}
+
+/*文章*/
+.article{ width:960px; margin:0px auto;}
+/*文章*/
+#article{ background:url(../images/cssimg/article_bg.jpg); background-color:#fff; margin-top:0px;}
+.article{ width:960px; margin:0px auto;}
+
+
+/*边*/
+.aside{ width:960px; margin:0px auto;}
+
+/*细节*/
+.details{ width:960px; margin:0px auto;}
+
+/*对话*/
+.dialog{ width:960px; margin:0px auto;}
+
+/*综合区域*/
+.section{ height:100px; }
+
+/*产品中心*/
+.product{ height:100px; }
+
+/*新闻*/
+.news{ height:100px; }
+
+/*公司简介*/
+.company_info{ height:100px; }
+
+/*关于我们*/
+.about{ height:100px; }
+
+/*视频*/
+.video{ height:100px; }
+
+/*知识*/
+.knowledge{ height:100px; }
+
+/*人才招聘*/
+.job{ height:100px; }
+
+/*合作伙伴*/
+.partner{ height:100px; }
+
+/*荣誉资质*/
+.honor{ height:100px; }
+
+/*广告*/
+.ad{ height:100px; }
+
+/*服务项目*/
+.service{ height:100px; }
+
+/*发展历程*/
+.course{ height:100px; }
+
+
+
+
+

@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>表单</title>
+<meta name="Keywords" content="$SiteKeywords" />
+<meta name="Description" content="$SiteDescription " />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta name="renderer" content="webkit">
+<link rel="stylesheet" type="text/css" href="../glo/css/globle.css"/>
+<script type="text/javascript" src="../glo/js/jquery-1.11.1.min.js"></script>
+<link href="css/form.css" rel="stylesheet" type="text/css" />
+<body>
+<div style="width:600px; margin:0px auto;">
+  <p>
+    <legend class="form-legend">表单标题</legend>
+  </p>
+  <form action="index.php" enctype="multipart/form-data" target="_self">
+    
+    <!--文本表单-->
+    <p>
+      <input type="text" class="input-text" style="width:500px;" placeholder="输入提示文本">
+    </p>
+    
+    <!--文本表单  邮件-->
+    <p>
+      <input type="email" class="input-text" style="width:500px;" placeholder="输入电子邮件">
+    </p>
+    
+    <!--文本表单  邮件-->
+    <p>
+      <input type="password" class="input-text" style="width:500px;" placeholder="设置个密码吧">
+    </p>
+    
+    <!--文本表单 时间-->
+    <p>
+      <input type="date" class="input-text" style="width:500px;">
+    </p>
+    
+    <!--文本表单 时间-->
+    <p>
+      <input type="datetime" class="input-text" style="width:500px;">
+    </p>
+    
+    <!--文本表单 搜索-->
+    <p>
+      <input type="search" class="input-text" style="width:500px;" placeholder="搜索">
+    </p>
+    
+    <!--文本表单 url-->
+    <p>
+      <input type="url" class="input-text" style="width:500px;" placeholder="url">
+    </p>
+    
+    <!--文本表单 颜色-->
+    <p>
+      <input type="color" class="input-text" style="width:500px;" placeholder="颜色">
+    </p>
+    
+    <!--文本表单 数字-->
+    <p>
+      <input type="number" class="input-text" style="width:500px;" placeholder="数字">
+    </p>
+    
+    <!--文本表单 电话-->
+    <p>
+      <input type="tel" class="input-text" style="width:500px;" placeholder="电话">
+    </p>
+    
+    <!--文本表单 搜索-->
+    <p>
+      <input type="search" class="input-text" style="width:500px;" placeholder="搜索">
+    </p>
+    
+    <!--文本域 搜索-->
+    <p>
+      <textarea rows="5" class="textarea-text" style="width:500px;" placeholder="文本域"></textarea>
+    </p>
+    <p>
+      <button type="submit" class="btn-default">提交</button>
+    </p>
+    
+    <!--文件上传域-->
+    <p>
+      <label>文件上传域</label>
+      <input type="file">
+      请选择要上传的文件... </p>
+    
+    <!--单选框组-->
+    <div class="radio-group clearfix">
+      <label class="radio-inline">
+        <input name="docInlineRadio" type="radio"  value="" checked>
+        每一分 </label>
+      <label class="radio-inline">
+        <input type="radio" name="docInlineRadio">
+        每一秒 </label>
+      <label class="radio-inline">
+        <input type="radio" name="docInlineRadio">
+        多好 </label>
+    </div>
+    <!--复选框组-->
+    <div class="checkbox-group clearfix">
+      <label class="checkbox-inline">
+        <input type="checkbox" value="option1">
+        选我 </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" value="option2">
+        同时可以选我 </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" value="option3">
+        还可以选我 </label>
+    </div>
+    <!--下拉菜单-->
+    <div class="select-group">
+      <label style="line-height:30px; font-size:12px; font-weight:800;">下拉多选框</label>
+      <select class="select01">
+        <option value="option1">选项一...</option>
+        <option value="option2">选项二.....</option>
+        <option value="option3">选项三........</option>
+      </select>
+    </div>
+    <!--多选下拉菜单-->
+    <div class="select-group">
+      <label style="line-height:30px; font-size:12px; font-weight:800;">多选框</label>
+      <select multiple  class="select01">
+        <option selected="selected" >1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+    </div>
+  </form>
+</div>
+</body>
+</html>

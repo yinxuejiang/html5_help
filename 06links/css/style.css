@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+.contain{ width:960px; margin:0px auto; margin-top:100px;}
+
+/*link01*/
+.link01{ padding:10px 0px; border:1px solid #ccc;}
+.link01 a{ display:inline-block; padding:0px 10px; line-height:22px; color:#333; font-size:12px;}
+.link01 a:hover{ color:red; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

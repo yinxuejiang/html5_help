@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+/*newslist01*/
+.news-list01{width:600px; margin:0px auto; padding:20px;}
+.news-list01 li{ height:30px; padding-left:15px;  line-height:30px; border-bottom:1px dashed #ccc; background:url(../images/cssimg/icon02.jpg) no-repeat left center;}
+.news-list01 li a{ font-size:14px; color:#333;}
+.news-list01 li a:hover{ color:red;}
+/*newslist01*/
+
+/*newslist02*/
+.news-list02{; width:600px; margin:0px auto; padding:20px}
+.news-list02 li{ height:30px; padding-left:15px; line-height:30px; border-bottom:1px dashed #ccc;background:url(../images/cssimg/icon02.jpg) no-repeat left center;}
+.news-list02 li span{ float:right; font-size:14px; color:#333;}
+.news-list02 li a{ font-size:14px; color:#333;}
+.news-list02 li a:hover{color:red;}
+/*newslist02*/

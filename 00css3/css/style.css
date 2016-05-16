@@ -1,0 +1,46 @@
+
+
+/*边框 Border*/
+
+/*
+水平半径：如果提供全部四个参数值，将按上左(top-left)、上右(top-right)、下右(bottom-right)、下左(bottom-left)的顺序作用于四个角。 
+如果只提供一个，将用于全部的于四个角。 
+如果提供两个，第一个用于上左(top-left)、下右(bottom-right)，第二个用于上右(top-right)、下左(bottom-left)。 
+如果提供三个，第一个用于上左(top-left)，第二个用于上右(top-right)、下左(bottom-left)，第三个用于下右(bottom-right)。 
+*/
+.test{ border-radius:10px 20px 30px 40px;}
+
+
+/*阴影 box-shadow*/
+
+/*none： 无阴影 
+<length>①： 第1个长度值用来设置对象的阴影水平偏移值。可以为负值 
+<length>②： 第2个长度值用来设置对象的阴影垂直偏移值。可以为负值 
+<length>③： 如果提供了第3个长度值则用来设置对象的阴影模糊值。不允许负值 
+<length>④： 如果提供了第4个长度值则用来设置对象的阴影外延值。可以为负值 
+<color>： 设置对象的阴影的颜色。 
+inset： 设置对象的阴影类型为内阴影。该值为空时，则对象的阴影类型为外阴影 
+*/
+.test{ box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .6) inset; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

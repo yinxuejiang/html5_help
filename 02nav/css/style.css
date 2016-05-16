@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*等宽导航01*/
+#nav01{ height:47px; background:url(../images/cssimg/nav01_bg.jpg) repeat-x;}
+.nav01{ width:960px; height:47px; margin:0px auto;}
+.nav01 li{ float:left; display:inline; width:107px; height:43px; margin-left:5px;}
+.nav01 li a{ display:block; font-size:14px; height:43px; line-height:43px; overflow:hidden; text-align:center; color:#242424;}
+.nav01 li a:hover{ background:url(../images/cssimg/nav01_li_sbg.jpg) no-repeat; font-weight:800; color:#fff;}
+.nav01 .active a{ background:url(../images/cssimg/nav01_li_sbg.jpg) no-repeat; font-weight:800; color:#fff;}
+
+/*不等宽导航02*/
+#nav02{ height:40px; background:url(../images/cssimg/nav02_bg.jpg) repeat-x;}
+.nav02{ width:960px; height:40px; margin:0px auto;}
+.nav02 li{ float:left; display:inline; height:40px; margin-left:10px;}
+.nav02 li a{ display:inline-block; font-size:12px; height:40px; padding:0px 15px; line-height:40px; color:#fff; font-weight:800;}
+.nav02 li a:hover{ color:#12a518; background:url(../images/cssimg/nav02_li_sbg.jpg) repeat-x;}
+.nav02 .active a{ color:#12a518; background:url(../images/cssimg/nav02_li_sbg.jpg) repeat-x;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

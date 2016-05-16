@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+.contain{ width:1000px; margin:0px auto; margin-top:50px;}
+
+.contain table tr td strong{ font-size:22px; line-height:36px; font-weight:800; color:#2e9c43; font-family:Arial, Helvetica, sans-serif; display:block; text-align:center;}
+.contain table tr td{ height:87px; vertical-align:top;}
+
+
+/*nav01*/
+.nav01{ width:231px; height:30px; line-height:30px; font-size:14px; font-weight:800; color:white; text-align:center; background:url(../images/cssimg/nav01_bg.jpg) no-repeat;}
+
+/*nav02*/
+.nav02{ height:36px; line-height:36px; font-size:14px; font-weight:800; color:#00527a; }
+.nav02 a{ float:right; line-height:36px; font-size:12px; font-weight:400; color:#666666;}
+.nav02 a:hover{ color:#04823b; }
+
+/*nav03*/
+.nav03{ height:36px; line-height:36px; font-size:14px; font-weight:800; color:#00527a; border-bottom:1px solid #a9a9a9;}
+.nav03 a{ float:right; line-height:36px; font-size:12px; font-weight:400; color:#666666;}
+.nav03 a:hover{color:#04823b;}
+
+/*nav04*/
+.nav04{ height:36px; background:url(../images/cssimg/nav04_bg.jpg) repeat-x;}
+.nav04 .fl{ float:left; display:inline-block; padding:0px 10px; height:36px; line-height:36px; font-size:14px; font-weight:800; color:#00527a; background:url(../images/cssimg/nav04_left_bg.jpg) repeat-x; }
+.nav04 .fr{ float:right; height:36px; display:inline;}
+.nav04 .fr a{line-height:36px; font-size:12px; font-weight:400; color:#666666;}
+.nav04 .fr a:hover{ color:#04823b;}
+
+/*nav05*/
+.nav05{ height:45px; width:231px; background:url(../images/cssimg/nav05_bg.jpg) no-repeat;}
+.nav05 .fl{ float:left; display:inline-block; padding-left:15px; height:45px; line-height:40px; font-size:14px; font-weight:800; color:#fff; }
+.nav05 .fr{ float:right; display:inline; height:29px; margin-top:6px; margin-right:10px;}
+.nav05 .fr a{ color:#80a7b7; font-size:12px; line-height:29px;}
+.nav05 .fr a:hover{ color:#9ad0e6;}
+
+/*nav06*/
+.nav06{ height:45px; width:231px; background:url(../images/cssimg/nav05_bg.jpg) no-repeat;}
+.nav06 .fl{ float:left; display:inline-block; padding-left:15px; height:45px; line-height:40px; font-size:14px; font-weight:800; color:#fff; }
+.nav06 .fr{ float:right; display:inline; height:29px; margin-top:5px; margin-right:5px;}
+.nav06 .fr a{ display:inline-block; height:27px; padding:0px 15px; background:url(../images/cssimg/nav06_right_a_bg.jpg) repeat-x; line-height:27px; border:1px solid #034e6e;border-radius:3px 3px; font-size:12px; font-weight:400; color:#04405e;}
+.nav06 .fr a:hover{ color:#04405e;}
+
+/*nav07*/
+.nav07{ height:29px; background:url(../images/cssimg/nav07_bg.jpg) repeat-x;}
+.nav07 .fl{ float:left; display:inline;}
+.nav07 .fl ul li{ height:29px; line-height:29px; float:left; display:inline; margin-left:5px;  text-align:center; }
+.nav07 .fl ul li a{ display:inline-block; line-height:27px; height:27px; border:1px solid #f4f9fc; border-bottom:1px solid #6099b6; border-radius:4px 4px 0px 0px; font-size:12px; font-weight:800; color:#fff; background:#6099b6; padding:0px 10px;}
+.nav07 .fl ul li a:hover{ color:#00527a; background:#f4f9fc; }
+.nav07 .fl ul .active a{ color:#00527a; background:#f4f9fc; }
+.nav07 .fr{ float:right; display:inline; line-height:29px;}
+.nav07 .fr a{ color:#666666; font-size:12px; line-height:29px;}
+.nav07 .fr a:hover{ color:#04823b;}
+
+/*nav08*/
+.nav08{ height:31px; border-bottom:1px solid #a9a9a9;}
+.nav08 .fl{ float:left; display:inline; height:31px; }
+.nav08 .fl ul li{ height:31px; line-height:31px; float:left; margin-left:8px; width:97px;}
+.nav08 .fl ul li a{ display:block; width:97px; height:31px; line-height:31px; font-size:14px; color:#666666; font-weight:800; text-align:center; background:url(../images/cssimg/nav08_left_li_sbg.jpg) no-repeat;}
+.nav08 .fl ul li a:hover{ color:white; background:url(../images/cssimg/nav08_left_li_bg.jpg) no-repeat;}
+.nav08 .fl ul .active a{ color:white; background:url(../images/cssimg/nav08_left_li_bg.jpg) no-repeat;}
+.nav08 .fr{ float:right; display:inline; line-height:31px; height:31px;}
+.nav08 .fr a{ font-size:12px; color:#666666;}
+.nav08 .fr a:hover{ color:#04823b;}
+
+/*nav09*/
+.nav09{height:24px; width:285px;}
+.nav09 .fl{ float:left; display:inline; width:24px; height:24px;}
+.nav09 .fr{ float:right; display:inline; height:23px; width:245px; border-bottom:1px dashed #e0e0e0; line-height:23px; font-size:14px; font-weight:800; color:#00527a;}
+.nav09 .fr a{ float:right; color:#666666; font-size:12px; font-weight:400;}
+.nav09 .fr a:hover{ color:#dd0000; }
+
+/*nav11*/
+.nav11{ height:28px; font-size:14px; font-weight:800; color:#00527a; line-height:28px; padding-left:32px; background:url(../images/cssimg/nav11_icon.jpg) no-repeat;}
+.nav11 a{ float:right; font-size:12px; font-weight:400; color:#666666;}
+.nav11 a:hover{ }
+
+/*nav12*/
+.nav12{ height:33px; background:url(../images/cssimg/nav12_bg.jpg) repeat-x;}
+.nav12 .fl{ float:left; display:inline-block; padding-left:20px; height:33px; line-height:33px; font-size:14px; font-weight:800; color:#1da839; background:url(../images/cssimg/nav12_left_bg.jpg) no-repeat; }
+.nav12 .fr{ float:right; height:33px; display:inline; padding-right:10px;  background:url(../images/cssimg/nav12_right_bg.jpg) no-repeat right top;}
+.nav12 .fr a{line-height:33px; font-size:12px; font-weight:400; color:#666666;}
+.nav12 .fr a:hover{ color:#04823b;}
+
+/*nav13*/
+.nav13{ height:33px; background:url(../images/cssimg/nav12_bg.jpg) repeat-x;}
+.nav13 .fl{ float:left; display:inline-block; padding-left:20px; height:33px; line-height:33px; font-size:14px; font-weight:800; color:#1da839; background:url(../images/cssimg/nav12_left_bg.jpg) no-repeat; }
+.nav13 .fr{ float:right; height:26px; display:inline; padding-right:10px;  background:url(../images/cssimg/nav12_right_bg.jpg) no-repeat right top; padding-top:7px;}
+.nav13 .fr a{line-height:33px; font-size:12px; font-weight:400; color:#666666;}
+.nav13 .fr a:hover{ color:#04823b;}
+
+
+
+
+
+
+
+
+

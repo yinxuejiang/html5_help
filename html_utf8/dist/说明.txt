@@ -1,0 +1,17 @@
+html 模板所用的东西：
+
+
+css 样式文件夹
+
+js  js文件夹
+
+images 图片文件夹
+
+images/cssimg 样式背景图片文件夹
+
+images/tempimg 式例图片文件夹
+
+
+
+
+

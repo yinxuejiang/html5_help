@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+.contain{ width:1000px; margin:0px auto; margin-top:50px;}
+
+/*阴影*/
+.con{filter: progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4); -moz-box-shadow: 2px 2px 10px #909090; -webkit-box-shadow: 2px 2px 10px #909090; box-shadow: 2px 2px 10px #909090;}
+
+/*圆角阴影*/
+.case{ min-height:20px; width:500px; border:1px solid #e1e1e1; border-radius:3px 3px; box-shadow:0px 1px 0px 0px rgba(0,0,0,.1); padding:30px 38px;}
+/*<length>①： 第1个长度值用来设置对象的阴影水平偏移值。可以为负值 
+<length>②： 第2个长度值用来设置对象的阴影垂直偏移值。可以为负值 
+<length>③： 如果提供了第3个长度值则用来设置对象的阴影模糊值。不允许负值 
+<length>④： 如果提供了第4个长度值则用来设置对象的阴影外延值。不允许负值 
+<color>： 设置对象的阴影的颜色。 */
+
+/*边距*/
+.add{ padding:0px 10px; margin:0px auto;
+/*
+
+将按上－右－下－左的顺序作用于四边。
+如果只提供一个，将用于全部的四条边。
+如果提供两个，第一个用于上－下，第二个用于左－右。
+如果提供三个，第一个用于上，第二个用于左－右，第三个用于下。
+ */
+}
+/*过渡效果*/
+.test li{background-color:#eee;-moz-transition:background-color .5s ease-in;-webkit-transition:background-color .5s ease-in;-o-transition:background-color .5s ease-in;-ms-transition:background-color .5s ease-in;transition:background-color .5s ease-in;}
+/*
+transition：[ transition-property ] || [ transition-duration ] || [ transition-timing-function ] || [ transition-delay ]
+
+[ transition-property ]： 检索或设置对象中的参与过渡的属性 
+[ transition-duration ]： 检索或设置对象过渡的持续时间 
+[ transition-timing-function ]： 检索或设置对象中过渡的动画类型 
+[ transition-delay ]： 检索或设置对象延迟过渡的时间 
+*/
+
+/*浏览器*/
+.a1{
+	-webkit-transform:translate(60px);  		  /*谷歌浏览器*/
+	-webkit-animation:animations 2s ease-out;  	
+	-moz-transform:translate(55px);  		 	  /*火狐浏览器*/
+	-moz-animation:animations 2s ease-out;
+	-o-transform:translate(55px);	 	 		  /*欧朋浏览器*/
+	-o-animation:animations 2s ease-out;
+	-ms-transform:translate(55px); 	 		 	  /*ie浏览器*/
+	-ms-animation:animations 2s ease-out;
+	transform:translate(55px); 					  /*w3c浏览器*/
+	animation:animations 2s ease-out;
+}
+
+
+/*text-overflow： ellipsis： 当对象内文本溢出时显示省略标记（...）*/
+.test .ellipsis p{overflow:hidden;width:200px;white-space:nowrap;text-overflow:ellipsis;}
+
+/*使用自定义图像作为光标类型，IE, Opera只支持*.cur等特定的图片格式；Firefox, Chrome, Safari既支持特定图片类型也支持常见的*.jpg, *.gif, *.jpg等图片格式。 */
+:link,:visited{ 
+    cursor:url(../images/css/example.svg#linkcursor) ,
+url(../images/css/hyper.cur) ,
+url(../images/css/hyper.png) 2 3,
+            pointer;
+}
+
+/*
+
+transform  CSS3 无 检索或设置对象的变换 
+
+none： 无转换 
+matrix(<number>,<number>,<number>,<number>,<number>,<number>)： 以一个含六值的(a,b,c,d,e,f)变换矩阵的形式指定一个2D变换，相当于直接应用一个[a,b,c,d,e,f]变换矩阵 
+translate(<length>[, <length>])： 指定对象的2D translation（2D平移）。第一个参数对应X轴，第二个参数对应Y轴。如果第二个参数未提供，则默认值为0 
+translateX(<length>)： 指定对象X轴（水平方向）的平移 
+translateY(<length>)： 指定对象Y轴（垂直方向）的平移 
+rotate(<angle>)： 指定对象的2D rotation（2D旋转），需先有transform-origin属性的定义 
+scale(<number>[, <number>])： 指定对象的2D scale（2D缩放）。第一个参数对应X轴，第二个参数对应Y轴。如果第二个参数未提供，则默认取第一个参数的值 
+scaleX(<number>)： 指定对象X轴的（水平方向）缩放 
+scaleY(<number>)： 指定对象Y轴的（垂直方向）缩放 
+skew(<angle> [, <angle>])： 指定对象skew transformation（斜切扭曲）。第一个参数对应X轴，第二个参数对应Y轴。如果第二个参数未提供，则默认值为0 
+skewX(<angle>)： 指定对象X轴的（水平方向）扭曲 
+skewY(<angle>)： 指定对象Y轴的（垂直方向）扭曲 */
+.test .translateX p{-moz-transform:translateX(20px);-webkit-transform:translateX(20px);-o-transform:translateX(20px);-ms-transform:translateX(20px);transform:translateX(20px);}
+
+
+/*增加表格*/
+.zengjia_table{ padding:20px 0px;}
+.zengjia_table table tr td{ padding:7px 5px; line-height:28px; font-size:14px; color:#5a5a5a;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

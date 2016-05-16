@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+.button01-btn{}
+
+.button01-btn{ display:inline-block; width:200px; height:40px; line-height:40px; border-radius:5px; text-align:center; color:#fff; background:#0085d0; font-size:16px; font-weight:800;}
+.button01-btn:hover{ background:#0273b2;}
+
+/*字体*/
+.a01{ line-height:22px; font-size:14px; font-weight:800; color:#333; text-align:center; font-family:Arial,'Microsoft YaHei';}
+
+/*字体*/
+.a02{ display:inline-block; width:105px; height:30px; border:1px solid #ccc; line-height:22px; font-size:14px; font-weight:800; color:#333; text-align:center; background:#ff0000; font-family:Arial,'Microsoft YaHei';  letter-spacing:1px;}
+
+p.pimg{}
+p.ptext{ margin-top:5px; line-height:22px; color:#5b5b5b;}
+p.ptitle{ margin-top:5px; line-height:22px; color:#359002;}
+
+/*热门资讯*/
+.left-img{ position:relative; float:left; display:inline; margin-top:0px; margin-left:0px; width:360px; height:260px;}
+.left-img img{ width:360px; height:260px;}
+.content{ margin-left:380px;}
+.content a{ font-size:14px; color:#172c45; font-weight:600; line-height:20px;}
+.content a:hover{ color:#8dc11e;}
+
+/*左右*/
+.fl{ float:left; display:inline; margin-left:0px; margin-top:0px; width:400px; height:100px;}
+.fr{ float:right; display:inline; margin-right:0px; margin-top:0px; width:400px; height:100px;}
+
+
+
+/*热门资讯*/
+.left-content{ position:relative; float:left; display:inline; margin-top:0px; margin-left:0px; width:360px; height:260px;}
+.content{ margin-left:380px;}
+.content a{ font-size:14px; color:#172c45; font-weight:600; line-height:20px;}
+.content a:hover{ color:#8dc11e;}
+
+/*上下*/
+/*层一*/
+.section01{ margin-top:10px;}
+/*层二*/
+.section02{ margin-top:10px;}
+/*层三*/
+.section03{ margin-top:10px;}
+/*层四*/
+.section04{ margin-top:10px;}
+/*层五*/
+.section05{ margin-top:10px;}
+/*上下*/
+.div01{ margin-top:10px;}
+.div02{ margin-top:10px;}
+.div03{ margin-top:10px;}
+.div04{ margin-top:10px;}
+.div05{ margin-top:10px;}
+
+/*上下*/
+.box01{ margin-top:10px;}
+.box02{ margin-top:10px;}
+.box03{ margin-top:10px;}
+.box04{ margin-top:10px;}
+.box05{ margin-top:10px;}
+
+
+/*图片*/
+.aaa ul li{ float:left; display:inline; width:172px; height:115px; margin-left:9px; margin-top:9px;}
+
+
+
+
+
+
+
+
+
+
