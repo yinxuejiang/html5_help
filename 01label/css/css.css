@@ -26,8 +26,6 @@ p.ptitle{ margin-top:5px; line-height:22px; color:#359002;}
 .fl{ float:left; display:inline; margin-left:0px; margin-top:0px; width:400px; height:100px;}
 .fr{ float:right; display:inline; margin-right:0px; margin-top:0px; width:400px; height:100px;}
 
-
-
 /*热门资讯*/
 .left-content{ position:relative; float:left; display:inline; margin-top:0px; margin-left:0px; width:360px; height:260px;}
 .content{ margin-left:380px;}

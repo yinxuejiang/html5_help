@@ -3,16 +3,16 @@
 /*顶部_nav*/
 #top_nav{ background-color:#f7f7f7; border-bottom:1px solid #eeeeee; height:28px; text-align:center; margin-top:0px;}
 .top_nav{ width:1000px;  height:28px; margin:0px auto; }
-.top_nav .l{ float:left; display:inline; margin-left:0px; margin-top:0px; width:400px; height:28px; line-height:28px;}
-.top_nav .r{ float:right; display:inline; margin-right:0px; margin-top:0px; width:400px; height:28px; line-height:28px; text-align:right;}
+.top_nav .fl{ float:left; display:inline; margin-left:0px; margin-top:0px; width:400px; height:28px; line-height:28px;}
+.top_nav .fr{ float:right; display:inline; margin-right:0px; margin-top:0px; width:400px; height:28px; line-height:28px; text-align:right;}
 .top_nav a{ line-height:28px; color:#575757; font-size:12px; padding:0px 2px;}
 .top_nav a:hover{ line-height:28px; color:#c80b27; font-size:12px; padding:0px 2px;}
 
 /*顶部*/
 #top{ background:url(../images/cssimg/top_bg.jpg); background-color:#fff; text-align:center; margin-top:0px;}
 .top{ width:1000px;  height:100px; margin:0px auto;}
-.top .l{ float:left; display:inline; margin-left:0px; margin-top:0px; width:400px; height:100px;}
-.top .r{ float:right; display:inline; margin-right:0px; margin-top:0px; width:400px; height:100px;}
+.top .fl{ float:left; display:inline; margin-left:0px; margin-top:0px; width:400px; height:100px;}
+.top .fr{ float:right; display:inline; margin-right:0px; margin-top:0px; width:400px; height:100px;}
 
 /*导航*/
 #nav{ height:43px; background:#c80928;}
