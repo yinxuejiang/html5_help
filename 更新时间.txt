@@ -1,1 +1,29 @@
 2016年5月15日
+
+
+
+
+
+
+
+
+
+
+正则替换常用的
+
+1.单词本
+\&(.+)         &[$1]
+
+2.提取文档所有单词
+[^a-zA-Z]+     \s
+
+3.适应替换
+transform:([^\n]*);
+-moz-transform:$1;
+	-o-transform:$1;
+	-ms-transform:$1;
+	-webkit-transform:$1;
+	transform:$1;
+
+
+
