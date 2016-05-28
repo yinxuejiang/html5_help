@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="class.about" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/*关于我们*/
+.about{ height:100px; }
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[
+<!--关于我们-->
+<div class="about"></div>]]>
+</insertText>
+</snippet>

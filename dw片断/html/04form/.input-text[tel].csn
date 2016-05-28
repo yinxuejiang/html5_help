@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name=".input-text[tel]" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<input type="tel" class="input-text" style="width:500px;" placeholder="电话">]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

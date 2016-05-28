@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="id#flash" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--动画-->
+<div id="flash">
+  <div class="flash"></div>
+</div>
+<!--end动画--> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -15,11 +15,7 @@
   .class { background:#ccc; }
 }
 
-/*阴影*/
-.con{ -moz-box-shadow:2px 2px 10px #909090; -webkit-box-shadow:2px 2px 10px #909090; box-shadow:2px 2px 10px #909090;}
-
-
-.test .matrix p{
+.matrix{
 	-moz-transform:matrix(1, 0, 0, 1, 10, 10);
 	-o-transform:matrix(1, 0, 0, 1, 10, 10);
 	-ms-transform:matrix(1, 0, 0, 1, 10, 10);
@@ -30,7 +26,7 @@
 
 
 /*圆角阴影*/
-.case{ min-height:20px; width:500px; border:1px solid #e1e1e1; border-radius:3px 3px; box-shadow:0px 1px 0px 0px rgba(0,0,0,.1); padding:30px 38px;}
+.box-shadow{ min-height:20px; width:500px; border:1px solid #e1e1e1; border-radius:3px 3px; padding:30px 38px;  box-shadow:0px 1px 0px 0px rgba(0,0,0,.1);}
 /*<length>①： 第1个长度值用来设置对象的阴影水平偏移值。可以为负值 
 <length>②： 第2个长度值用来设置对象的阴影垂直偏移值。可以为负值 
 <length>③： 如果提供了第3个长度值则用来设置对象的阴影模糊值。不允许负值 
@@ -39,16 +35,14 @@
 
 /*透明度*/
 div{filter:alpha(opacity=50);} /* for IE8 and earlier */
-div{opacity:.5;} /* for IE9 and other browsers */
+.opacity{opacity:.5;} /* for IE9 and other browsers */
 
 
 /*
 clip： 当对象内文本溢出时不显示省略标记（...），而是将溢出的部分裁切掉。 
 ellipsis： 当对象内文本溢出时显示省略标记（...）。 
 */
-.test li{margin-top:10px;}
-.test .clip p{ overflow:hidden; width:200px;white-space:nowrap;text-overflow:clip;}
-.test .ellipsis p{overflow:hidden; width:200px;white-space:nowrap;text-overflow:ellipsis;}
+.ellipsis{overflow:hidden; width:200px;white-space:nowrap;text-overflow:ellipsis;}
 
 
 
@@ -56,7 +50,6 @@ ellipsis： 当对象内文本溢出时显示省略标记（...）。
 normal： 允许内容顶开或溢出指定的容器边界。 
 break-word： 内容将在边界内换行。如果需要，单词内部允许断行。 
 */
-.test p{width:100px;border:1px solid #000;}
 .normal p{word-wrap:normal;}
 .break-word p{word-wrap:break-word;}
 
@@ -71,12 +64,7 @@ content-box： padding和border不被包含在定义的width和height之内。�
 border-box： padding和border被包含在定义的width和height之内。对象的实际宽度就等于设置的width值，即使定义有border和padding也不会改变对象的实际宽度，即 ( Element width = width ) 
 此属性表现为怪异模式下的盒模型。 
 */
-
-.test1{ box-sizing:content-box; width:200px; padding:10px; border:15px solid #eee; } 
-.test2{ box-sizing:border-box; width:200px; padding:10px; border:15px solid #eee; } 
-
-
-
+.box-sizing{ box-sizing:content-box; width:200px; padding:10px; border:15px solid #eee; } 
 
 /*
 语法：
@@ -89,12 +77,13 @@ both： 用户可以调节元素的宽度和高度。
 horizontal： 用户可以调节元素的宽度 
 vertical： 用户可以调节元素的高度。 
 */
-.test{overflow:auto;width:200px;height:100px;resize:none;background:#eee;}
+.resize{overflow:auto;width:200px;height:100px;resize:none;background:#eee;}
 
 
 
 /*设置或检索在对象上移动的鼠标指针采用何种系统预定义的光标形状。*/ 
-:link,:visited{ 
+:link,
+:visited{ 
     cursor:url(example.svg#linkcursor),
             url(hyper.cur),
             url(hyper.png) 2 3,
@@ -105,10 +94,9 @@ vertical： 用户可以调节元素的高度。
 E:nth-child(n){ sRules }
 
 /*after*/
-.huo_neng_tipbox:after{ position:absolute; left:40px; top:-10px; content:""; border-bottom:10px solid #fff; border-right:10px solid transparent; border-left:10px solid transparent;}
+.box:after{ position:absolute; left:40px; top:-10px; content:""; border-bottom:10px solid #fff; border-right:10px solid transparent; border-left:10px solid transparent;}
 
-
-.huo_neng_tipbox{ height:300px; background:rgba(0,0,0,.5);}
+.rgba{ height:300px; background:rgba(0,0,0,.5);}
 
 
 

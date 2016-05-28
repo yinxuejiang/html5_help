@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="class.nav" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--导航-->
+<nav class="nav"></nav>
+<!--end导航-->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

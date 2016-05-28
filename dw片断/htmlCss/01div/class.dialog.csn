@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="class.dialog" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/*对话*/
+.dialog{ width:960px; margin:0px auto;}
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[
+<!--对话-->
+<dialog class="dialog"></dialog>]]>
+</insertText>
+</snippet>

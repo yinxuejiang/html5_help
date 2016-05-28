@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="class.main" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--主体-->
+<div class="main"></div>
+<!--end主体--> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

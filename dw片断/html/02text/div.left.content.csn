@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="div.left.content" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--左右-->
+<div class="clearfix">
+  <div class="left-content"><a href="#"><img src="images/tempimg/images.jpg" alt=" "></a></div>
+  <div class="content"></div>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

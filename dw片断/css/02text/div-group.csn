@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="div-group" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[.div01{ margin-top:10px;}
+.div02{ margin-top:10px;}
+.div03{ margin-top:10px;}
+.div04{ margin-top:10px;}
+.div05{ margin-top:10px;}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

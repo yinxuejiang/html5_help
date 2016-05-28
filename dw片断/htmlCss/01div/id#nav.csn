@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="id#nav" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/*导航*/
+#nav{ min-width:960px; background:url(../images/cssimg/nav_bg.jpg); background-color:#fff; margin-top:0px;}
+.nav{ width:960px; margin:0px auto;}
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[
+<!--导航-->
+<nav id="nav">
+  <div class="nav"></div>
+</nav>
+<!--end导航--> ]]>
+</insertText>
+</snippet>

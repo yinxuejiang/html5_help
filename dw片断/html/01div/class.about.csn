@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="class.about" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--关于我们-->
+<div class="about"></div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

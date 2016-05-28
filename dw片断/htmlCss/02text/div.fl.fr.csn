@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="div>.fl.fr" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/*左右*/
+.fl{ float:left; display:inline; margin-left:0px; margin-top:0px; width:400px; height:100px;}
+.fr{ float:right; display:inline; margin-right:0px; margin-top:0px; width:400px; height:100px;}
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[
+<!--左右-->
+<div class="clearfix">
+  <div class="fl">投资模式震撼了</div>
+  <div class="fr">投资模式震撼了</div>
+</div>]]>
+</insertText>
+</snippet>

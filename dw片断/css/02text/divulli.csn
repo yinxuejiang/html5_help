@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="divulli" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[.aaa ul li{ float:left; display:inline; width:172px; height:115px; margin-left:9px; margin-top:9px;}
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

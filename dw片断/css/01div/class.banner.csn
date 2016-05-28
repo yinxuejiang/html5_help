@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="class.banner" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[/*图片切换*/
+.banner{ height:340px; background:url(../images/tempimg/banner.jpg) no-repeat center top;}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

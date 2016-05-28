@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="class.header" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--头部-->
+<header class="header"></header>
+<!--end头部-->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="div>.fl.fr" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--左右-->
+<div class="clearfix">
+  <div class="fl">投资模式震撼了</div>
+  <div class="fr">投资模式震撼了</div>
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

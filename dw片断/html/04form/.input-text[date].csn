@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name=".input-text[date]" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<input type="date" class="input-text" style="width:500px;">]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

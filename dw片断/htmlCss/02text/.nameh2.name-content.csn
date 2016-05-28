@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name=".name>h2.name-content" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--名字-->
+<div class="name">
+  <h2></h2>
+  <div class="name-content"></div>
+</div>
+<!--end名字--> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

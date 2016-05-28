@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="id#footer" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--底部-->
+<footer id="footer">
+  <div class="footer"></div>
+</footer>
+<!--end底部--> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

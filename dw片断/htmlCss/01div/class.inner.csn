@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="class.inner" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/*网站内页主体*/
+.inner{ width:960px; margin:0px auto;}
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[
+<!--内页主体-->
+<div class="inner"></div>
+<!--end内页主体--> ]]>
+</insertText>
+</snippet>

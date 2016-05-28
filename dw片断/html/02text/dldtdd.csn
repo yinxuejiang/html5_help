@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="dl>dt>dd" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--左右-->
+<dl class="clearfix">
+  <dt class="left-img"><a href="#"><img src="images/tempimg/images.jpg" alt=" "></a></dt>
+  <dd class="content"><a href="#">BAT的“中国式”投资模式震撼了 硅谷</a></dd>
+</dl>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

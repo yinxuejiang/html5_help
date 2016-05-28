@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="a.button" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<a href="javascript:;" class="button01-btn">确认提交</a>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="ul>li>a" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<ul>
+  <li><a href="#">内容页</a></li>
+</ul>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

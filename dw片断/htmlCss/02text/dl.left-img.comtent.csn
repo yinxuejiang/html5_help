@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="dl>.left-img.comtent" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/*热门资讯*/
+.left-img{ position:relative; float:left; display:inline; margin-top:0px; margin-left:0px; width:360px; height:260px;}
+.left-img img{ width:360px; height:260px;}
+.content{ margin-left:380px;}
+.content a{ font-size:14px; color:#172c45; font-weight:600; line-height:20px;}
+.content a:hover{ color:#8dc11e;}
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[<!--左右-->
+<dl class="clearfix">
+  <dt class="left-img"><a href="#"><img src="images/tempimg/images.jpg" alt=" "></a></dt>
+  <dd class="content"><a href="#">BAT的“中国式”投资模式震撼了 硅谷</a></dd>
+</dl>]]>
+</insertText>
+</snippet>

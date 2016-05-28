@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="id#article" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--文章-->
+<article id="article">
+  <div class="article"></div>
+</article>
+<!--end文章--> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

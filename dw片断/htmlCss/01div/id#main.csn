@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="id#main" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/*网站主体*/
+#main{ min-width:960px; background:url(../images/cssimg/main_bg.jpg); background-color:#fff; margin-top:0px;}
+.main{ width:960px; margin:0px auto;}
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[
+<!--主体-->
+<div id="main">
+  <div class="main"></div>
+</div>
+<!--end主体-->]]>
+</insertText>
+</snippet>

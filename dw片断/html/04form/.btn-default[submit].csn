@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name=".btn-default[submit]" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<button type="submit" class="btn-default">提交</button>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

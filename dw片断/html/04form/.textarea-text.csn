@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name=".textarea-text" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<textarea rows="5" class="textarea-text" style="width:500px;" placeholder="文本域"></textarea>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

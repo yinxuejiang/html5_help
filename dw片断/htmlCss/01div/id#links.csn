@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="id#links" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/*友情链接*/
+#links{ min-width:960px; background:url(../images/cssimg/links_bg.jpg); background-color:#fff; margin-top:0px;}
+.links{ width:960px; margin:0px auto;}
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[
+<!--友情链接-->
+<div id="links">
+  <div class="links"></div>
+</div>
+<!--end友情链接-->]]>
+</insertText>
+</snippet>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="class.section" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--区域-->
+<section class="section"></section>
+<!--end区域-->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

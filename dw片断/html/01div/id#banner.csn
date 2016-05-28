@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="id#banner" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--图片切换-->
+<div id="banner">
+  <div class="banner"></div>
+</div>
+<!--end图片切换-->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

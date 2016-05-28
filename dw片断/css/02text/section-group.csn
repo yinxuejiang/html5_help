@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="section-group" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[/*层一*/
+.section01{ margin-top:10px;}
+/*层二*/
+.section02{ margin-top:10px;}
+/*层三*/
+.section03{ margin-top:10px;}
+/*层四*/
+.section04{ margin-top:10px;}
+/*层五*/
+.section05{ margin-top:10px;}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

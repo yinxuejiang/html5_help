@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="id#search" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/*搜索*/
+#search{ min-width:960px; background:url(../images/cssimg/search_bg.jpg); background-color:#fff; margin-top:0px;}
+.search{ width:960px; margin:0px auto;}
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[
+<!--搜索-->
+<div id="search">
+  <div class="search"></div>
+</div>
+<!--end搜索-->]]>
+</insertText>
+</snippet>

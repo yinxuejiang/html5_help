@@ -1,6 +1,8 @@
 2016年5月15日
 
+dw代码片断位置
 
+C:\Users\Administrator\AppData\Roaming\Adobe\Dreamweaver CC\zh_CN\Configuration\Snippets
 
 
 

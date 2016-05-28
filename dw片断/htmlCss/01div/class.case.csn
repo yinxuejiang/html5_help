@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="class.case" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!--成功案例-->
+<div class="case"></div>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

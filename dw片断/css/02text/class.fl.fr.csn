@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="class.fl.fr" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[/*左右*/
+.fl{ float:left; display:inline; margin-left:0px; margin-top:0px; width:400px; height:100px;}
+.fr{ float:right; display:inline; margin-right:0px; margin-top:0px; width:400px; height:100px;}
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

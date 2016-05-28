@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="class.video" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!--视频-->
+<div class="video"></div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="class.links" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/*友情链接*/
+.links{ width:960px; margin:0px auto;}
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[
+<!--友情链接-->
+<div class="links"></div>
+<!--end友情链接--> ]]>
+</insertText>
+</snippet>

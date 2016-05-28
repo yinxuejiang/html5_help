@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="id#section" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/*区域*/
+#section{ min-width:960px; background:url(../images/cssimg/section_bg.jpg); background-color:#fff; margin-top:0px;}
+.section{ width:960px; margin:0px auto;}
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[
+<!--区域-->
+<section id="section">
+  <div class="section"></div>
+</section>
+<!--end区域-->]]>
+</insertText>
+</snippet>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="class.main" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[/*网站主体*/
+.main{ width:960px; margin:0px auto;}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

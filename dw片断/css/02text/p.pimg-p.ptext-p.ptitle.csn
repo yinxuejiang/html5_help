@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="p.pimg-p.ptext-p.ptitle" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[p.pimg{}
+p.ptext{ margin-top:5px; line-height:22px; color:#5b5b5b;}
+p.ptitle{ margin-top:5px; line-height:22px; color:#359002;}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

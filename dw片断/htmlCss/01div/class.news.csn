@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="class.news" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/*新闻*/
+.news{ height:100px; }
+
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[
+<!--新闻-->
+<div class="news"></div>]]>
+</insertText>
+</snippet>

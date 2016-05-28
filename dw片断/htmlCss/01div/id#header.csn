@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="id#header" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/*头部*/
+#header{ min-width:960px; background:url(../images/cssimg/head_bg.jpg); background-color:#fff; margin-top:0px;}
+.header{ width:960px; margin:0px auto;}
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[
+<!--头部-->
+<header id="header">
+  <div class="header"></div>
+</header>
+<!--end头部-->]]>
+</insertText>
+</snippet>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="class.button01-btn" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[.button01-btn{ display:inline-block; width:200px; height:40px; line-height:40px; border-radius:5px; text-align:center; color:#fff; background:#0085d0; font-size:16px; font-weight:800;}
+.button01-btn:hover{ background:#0273b2;}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
