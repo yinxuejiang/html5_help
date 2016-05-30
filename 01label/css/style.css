@@ -10,6 +10,13 @@
 #header{ min-width:960px; background:url(../images/cssimg/head_bg.jpg); background-color:#fff; margin-top:0px;}
 .header{ width:960px; margin:0px auto;}
 
+/*顶部*/
+.top{ width:960px; margin:0px auto;}
+
+/*顶部*/
+#top{ min-width:960px; background:url(../images/cssimg/top_bg.jpg); background-color:#fff; margin-top:0px;}
+.top{ width:960px; margin:0px auto;}
+
 /*导航*/
 .nav{ width:960px; margin:0px auto;}
 

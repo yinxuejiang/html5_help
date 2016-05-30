@@ -32,8 +32,6 @@ $(function(){
 	$("body").on("click",".pub-closed-btn",function(){
 		$(this).parents(".pub-popup").fadeOut();
 	});
-
-
 });
 
 /*

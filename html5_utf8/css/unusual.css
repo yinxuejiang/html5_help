@@ -1,3 +1,7 @@
+
+audio, canvas, progress, video { display:inline-block; vertical-align:baseline }
+audio:not([controls]) { display:none; height:0 }
+
 /*form标签*/
 button, input, select, textarea { /*margin:0; padding:0; border:1px; outline:none; border-radius:0;*/ }
 input:focus, textarea:focus { outline:none }
