@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="div-groups" description="" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<div class="div01"></div>
+<![CDATA[
+<div class="div01"></div>
 <div class="div02"></div>
 <div class="div03"></div>
 <div class="div04"></div>]]>

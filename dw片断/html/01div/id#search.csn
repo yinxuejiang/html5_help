@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="id#search" description="" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<!--搜索-->
+<![CDATA[
+<!--搜索-->
 <div id="search">
   <div class="search"></div>
 </div>

@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name=".table02trthtd" description="" preview="code" type="wrap">
 <insertText location="beforeSelection">
-<![CDATA[<table width="100%" class="table02">
+<![CDATA[
+<table width="100%" class="table02">
     <colgroup>
     <col style="width:100px;"/>
     <col style="width:100px;"/>

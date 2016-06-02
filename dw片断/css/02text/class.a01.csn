@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="class.a01" description="" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[.a01{ line-height:22px; font-size:14px; font-weight:800; color:#333; text-align:center; font-family:Arial,'Microsoft YaHei';}
+<![CDATA[
+.a01{ line-height:22px; font-size:14px; font-weight:800; color:#333; text-align:center; font-family:Arial,'Microsoft YaHei';}
 ]]>
 </insertText>
-<insertText location="afterSelection"><![CDATA[]]>
+<insertText location="afterSelection"><![CDATA[
+]]>
 </insertText>
 </snippet>

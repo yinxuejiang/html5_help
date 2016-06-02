@@ -1,10 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="id#inner" description="" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[/*网站内页主体*/
+<![CDATA[
+/*网站内页主体*/
 #inner{ min-width:960px; background:url(../images/cssimg/inner_bg.jpg); background-color:#fff; margin-top:0px;}
 .inner{ width:960px; margin:0px auto;}]]>
 </insertText>
-<insertText location="afterSelection"><![CDATA[]]>
+<insertText location="afterSelection"><![CDATA[
+]]>
 </insertText>
 </snippet>

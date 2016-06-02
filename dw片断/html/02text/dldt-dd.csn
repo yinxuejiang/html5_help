@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="dl>dt-dd" description="" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<!--dl dd-->
+<![CDATA[
+<!--dl dd-->
 <dl>
   <dt></dt>
   <dd></dd>

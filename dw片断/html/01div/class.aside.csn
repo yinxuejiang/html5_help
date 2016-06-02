@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="class.aside" description="" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<!--边-->
+<![CDATA[
+<!--边-->
 <aside class="aside"></aside>]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>

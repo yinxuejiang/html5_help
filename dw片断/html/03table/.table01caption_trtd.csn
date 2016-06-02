@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name=".table01>caption tr>td" description="" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[  <table width="100%" class="table01">
+<![CDATA[
+<table width="100%" class="table01">
     <caption>
     This is a caption
     </caption>

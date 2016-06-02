@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="div-groups" description="" preview="code" type="wrap">
 <insertText location="beforeSelection">
-<![CDATA[.div01{ margin-top:10px;}
+<![CDATA[
+.div01{ margin-top:10px;}
 .div02{ margin-top:10px;}
 .div03{ margin-top:10px;}
 .div04{ margin-top:10px;}

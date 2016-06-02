@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="div>.fl.fr" description="" preview="code" type="wrap">
 <insertText location="beforeSelection">
-<![CDATA[/*左右*/
+<![CDATA[
+/*左右*/
 .fl{ float:left; display:inline; margin-left:0px; margin-top:0px; width:400px; height:100px;}
 .fr{ float:right; display:inline; margin-right:0px; margin-top:0px; width:400px; height:100px;}
 ]]>

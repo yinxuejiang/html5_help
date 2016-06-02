@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="class.container" description="" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[/*网站内容*/
+<![CDATA[
+/*网站内容*/
 .container{ width:960px; margin:0px auto;}]]>
 </insertText>
-<insertText location="afterSelection"><![CDATA[]]>
+<insertText location="afterSelection"><![CDATA[
+]]>
 </insertText>
 </snippet>

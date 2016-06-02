@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="img" description="" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<img src="images/tempimg/movie_img01.jpg" width="306" height="187" alt=" " />]]>
+<![CDATA[
+<img src="images/tempimg/movie_img01.jpg" width="306" height="187" alt=" " />]]>
 </insertText>
-<insertText location="afterSelection"><![CDATA[]]>
+<insertText location="afterSelection"><![CDATA[
+]]>
 </insertText>
 </snippet>

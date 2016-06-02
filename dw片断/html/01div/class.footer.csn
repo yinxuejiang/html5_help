@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="class.footer" description="" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<!--底部-->
+<![CDATA[
+<!--底部-->
 <div class="footer"></div>
 <!--end底部--> ]]>
 </insertText>

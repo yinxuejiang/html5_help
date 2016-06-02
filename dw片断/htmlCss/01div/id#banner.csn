@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="id#banner" description="" preview="code" type="wrap">
 <insertText location="beforeSelection">
-<![CDATA[/*图片切换*/
+<![CDATA[
+/*图片切换*/
 #banner{ min-width:960px; background:url(../images/cssimg/banner_bg.jpg); background-color:#fff; margin-top:0px;}
 .banner{ width:960px; margin:0px auto;}
 ]]>

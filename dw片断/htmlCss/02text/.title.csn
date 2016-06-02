@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name=".title" description="" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<div class="title"></div>]]>
+<![CDATA[
+<div class="title"></div>]]>
 </insertText>
-<insertText location="afterSelection"><![CDATA[]]>
+<insertText location="afterSelection"><![CDATA[
+]]>
 </insertText>
 </snippet>

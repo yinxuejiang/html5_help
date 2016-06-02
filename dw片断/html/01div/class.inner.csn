@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="class.inner" description="" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<!--内页主体-->
+<![CDATA[
+<!--内页主体-->
 <div class="inner"></div>
 <!--end内页主体--> ]]>
 </insertText>

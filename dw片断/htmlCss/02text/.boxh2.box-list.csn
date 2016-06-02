@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name=".box>h2.box-list" description="" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<!--盒子-->
+<![CDATA[
+<!--盒子-->
 <div class="box">
   <h2></h2>
   <div class="box-list"></div>
 </div>
 <!--end盒子--> ]]>
 </insertText>
-<insertText location="afterSelection"><![CDATA[]]>
+<insertText location="afterSelection"><![CDATA[
+]]>
 </insertText>
 </snippet>

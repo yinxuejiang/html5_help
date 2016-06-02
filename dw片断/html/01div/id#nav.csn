@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="id#nav" description="" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<!--导航-->
+<![CDATA[
+<!--导航-->
 <nav id="nav">
   <div class="nav"></div>
 </nav>

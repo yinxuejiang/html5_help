@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="class.a02" description="" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[.a02{ display:inline-block; width:105px; height:30px; border:1px solid #ccc; line-height:22px; font-size:14px; font-weight:800; color:#333; text-align:center; background:#ff0000; font-family:Arial,'Microsoft YaHei';  letter-spacing:1px;}
+<![CDATA[
+.a02{ display:inline-block; width:105px; height:30px; border:1px solid #ccc; line-height:22px; font-size:14px; font-weight:800; color:#333; text-align:center; background:#ff0000; font-family:Arial,'Microsoft YaHei';  letter-spacing:1px;}
 ]]>
 </insertText>
-<insertText location="afterSelection"><![CDATA[]]>
+<insertText location="afterSelection"><![CDATA[
+]]>
 </insertText>
 </snippet>

@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="dl>dtdd" description="" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<!--dl dd-->
+<![CDATA[
+<!--dl dd-->
 <dl>
   <dt></dt>
   <dd></dd>
 </dl>]]>
 </insertText>
-<insertText location="afterSelection"><![CDATA[]]>
+<insertText location="afterSelection"><![CDATA[
+]]>
 </insertText>
 </snippet>

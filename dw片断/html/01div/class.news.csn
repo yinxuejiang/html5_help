@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="class.news" description="" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<!--新闻-->
+<![CDATA[
+<!--新闻-->
 <div class="news"></div>]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>

@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="p.pcontent" description="" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<p class="pcontent"></p>]]>
+<![CDATA[
+<p class="pcontent"></p>]]>
 </insertText>
-<insertText location="afterSelection"><![CDATA[]]>
+<insertText location="afterSelection"><![CDATA[
+]]>
 </insertText>
 </snippet>

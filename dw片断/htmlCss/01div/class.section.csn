@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="class.section" description="" preview="code" type="wrap">
 <insertText location="beforeSelection">
-<![CDATA[/*综合区域*/
+<![CDATA[
+/*综合区域*/
 .section{ height:100px; }
 ]]>
 </insertText>

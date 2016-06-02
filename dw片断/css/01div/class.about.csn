@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="class.about" description="" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[/*关于我们*/
+<![CDATA[
+/*关于我们*/
 .about{ height:100px; }]]>
 </insertText>
-<insertText location="afterSelection"><![CDATA[]]>
+<insertText location="afterSelection"><![CDATA[
+]]>
 </insertText>
 </snippet>

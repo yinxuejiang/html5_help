@@ -1,7 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recentSnippets max="10">
-	<snippet name="htmlCss\01div\class.about" id="Snippets*htmlCss*01div*class.about.csn" />
-	<snippet name="htmlCss\01div\class.nav" id="Snippets*htmlCss*01div*class.nav.csn" />
-	<snippet name="html\01div\class.header" id="Snippets*html*01div*class.header.csn" />
-	<snippet name="表单元素\关闭窗口按钮" id="Snippets*Form_Elements*CloseWindowButton.csn" />
+	<snippet name="html\02text\ul>li>a" id="Snippets*html*02text*ullia.csn" />
+	<snippet name="html\02text\div>.fl.fr" id="Snippets*html*02text*div.fl.fr.csn" />
+	<snippet name="html\02text\a.button" id="Snippets*html*02text*a.button.csn" />
+	<snippet name="css\02text\class.button01-btn" id="Snippets*css*02text*class.button01-btn.csn" />
+	<snippet name="html\02text\.box>h2.box-list" id="Snippets*html*02text*.boxh2.box-list.csn" />
+	<snippet name="html\02text\box-groups" id="Snippets*html*02text*box-groups.csn" />
+	<snippet name="html\02text\div.left.content" id="Snippets*html*02text*div.left.content.csn" />
+	<snippet name="html\02text\p.pimg" id="Snippets*html*02text*p.pimg.csn" />
+	<snippet name="html\02text\img" id="Snippets*html*02text*img.csn" />
+	<snippet name="html\02text\dl>dt>dd" id="Snippets*html*02text*dldtdd.csn" />
 </recentSnippets>

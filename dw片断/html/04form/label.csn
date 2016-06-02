@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="label" description="" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<label>文件上传域</label>]]>
+<![CDATA[
+<label>文件上传域</label>]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>

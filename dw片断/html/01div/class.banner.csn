@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <snippet name="class.banner" description="" preview="code" type="block">
 <insertText location="beforeSelection">
-<![CDATA[<!--图片切换-->
+<![CDATA[
+<!--图片切换-->
 <div class="banner"></div>
 <!--end图片切换--> ]]>
 </insertText>
