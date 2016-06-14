@@ -11,9 +11,9 @@
 /*字体*/
 .a02{ display:inline-block; width:105px; height:30px; border:1px solid #ccc; line-height:22px; font-size:14px; font-weight:800; color:#333; text-align:center; background:#ff0000; font-family:Arial,'Microsoft YaHei';  letter-spacing:1px;}
 
-p.pimg{}
-p.ptext{ margin-top:5px; line-height:22px; color:#5b5b5b;}
-p.ptitle{ margin-top:5px; line-height:22px; color:#359002;}
+.pimg{}
+.ptext{ margin-top:5px; line-height:22px; color:#5b5b5b;}
+.ptitle{ margin-top:5px; line-height:22px; color:#359002;}
 
 /*热门资讯*/
 .left-img{ position:relative; float:left; display:inline; margin-top:0px; margin-left:0px; width:360px; height:260px;}
@@ -61,8 +61,17 @@ p.ptitle{ margin-top:5px; line-height:22px; color:#359002;}
 /*图片*/
 .aaa ul li{ float:left; display:inline; width:172px; height:115px; margin-left:9px; margin-top:9px;}
 
+.yinfont{ font-family:yinfont, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:60px; color:#000; font-style:normal;}
 
-
+/*字体*/
+@font-face {
+	font-family: 'yinfont';
+	src: url('../font/yinfont.eot'); /* IE9+ */
+	src: url('../font/yinfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../font/yinfont.woff') format('woff'), /* chrome、firefox */
+		 url('../font/yinfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+		 url('../font/yinfont.svg#fontname') format('svg'); /* iOS 4.1- */
+}
 
 
 

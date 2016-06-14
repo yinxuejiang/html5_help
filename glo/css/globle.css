@@ -25,7 +25,7 @@ body { font-size:12px; -ms-word-break:break-all; -webkit-word-break:break-all; -
 .clear { clear:both; }
 .clearfix { zoom:1; }
 .clearfix:after { display:block; clear:both; visibility:hidden; height:0; content:''; }
-.none { display:none; }
+.display-none { display:none; }
 .border-none { border:none !important; }
 .fl { float:left; }
 .fr { float:right; }

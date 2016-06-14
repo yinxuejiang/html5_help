@@ -1,39 +1,58 @@
-变换替换
-
-
--webkit-transform:([^\n]*);
-
-
--moz-transform:$1;
-	-o-transform:$1;
-	-ms-transform:$1;
-	-webkit-transform:$1;
-
-
-
-
-
-
-
 
 变换替换
 
-
+查找
 transform:([^\n]*);
 
-
+替换
 -moz-transform:$1;
 	-o-transform:$1;
 	-ms-transform:$1;
 	-webkit-transform:$1;
 	transform:$1;
 	
-	
+查找
 animation:([^\n]*);
 
-
+替换
 -moz-animation:$1;
 	-o-animation:$1;
 	-ms-animation:$1;
 	-webkit-animation:$1;
 	animation:$1;
+	
+
+
+变换替换
+@keyframes animations{}
+@-webkit-keyframes animations{}
+@-moz-keyframes animations{}
+@-o-keyframes animations{}
+@-ms-keyframes animations{}
+@keyframes animations{}
+
+
+去掉其它，只留单词
+[^a-zA-Z]+
+
+
+
+把驼峰替换掉 例：myBox 换成my Box
+
+查找
+([a-z])([A-Z])([a-z])
+替换
+$1
+$2$3
+
+
+把一些重字母的去了 例：aaaa bbb yyy 去掉
+查找
+([a-zA-Z])\1{2,}
+
+把一些1-2个字母的都去了
+
+
+
+查找
+\b[a-zA-Z]{1,2}\b
