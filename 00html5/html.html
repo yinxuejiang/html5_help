@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="gb2312">
+	<title>Document</title>
+</head>
+<body>
+	<!-- 基本结构(DOCTYPE、html、head、title、meta、link、script、body、style、base) -->
+	<div>
+		<script type="text/javascript" src="demo_async.js" async></script>
+		<script type="text/javascript" defer></script>
+	</div>
+
+	<!-- 结构标签（section、article、aside、header、footer、nav、dialog、figure、hgroup） -->
+	<div>
+		<section>标签定义文档中的节（section、区段）。比如章节、页眉、页脚或文档中的其他部分。</section>
+		<article>标签规定独立的自包含内容。</article>
+		<aside>标签定义其所处内容之外的内容。</aside>
+		<header>标签定义文档的页眉（介绍信息）。</header>
+		<footer>标签定义文档或节的页脚。</footer>
+		<nav>标签定义导航链接的部分。</nav>
+		<dialog></dialog>
+		<figure>
+			<figcaption>标签规定独立的流内容（图像、图表、照片、代码等等）。</figcaption>
+		</figure>
+		<hgroup>
+			<h1></h1>
+			<h2></h2>
+		</hgroup>
+	</div>
+
+	<!-- 块标签 （iframe、div、p、br、hr、blockquote、object）-->
+	<div>
+		<div></div>
+		<p></p>
+		<br>
+		<hr>
+		<blockquote cite="http://example.com/facts">
+			<p></p>
+		</blockquote>
+		<object type="" data="" width="290" height="45">
+			<param name="src" value="">
+			<param name="autoplay" value="false">
+			<param name="autoStart" value="0">
+		</object>
+		<iframe src=""></iframe>
+	</div>
+
+	<!-- 表格列表 （table、colgroup、col、caption、thead、tbody、tfoot、th、tr、td、ol、ul、li、dl、dt、dd）-->
+	<div>
+		<table>
+			<caption>table title and/or explanatory text</caption>
+			<colgroup align="right"></colgroup>
+			<thead>
+				<tr>
+					<th>header</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>data</td>
+				</tr>
+			</tbody>
+		</table>
+		<ul>
+			<li></li>
+		</ul>
+		<ol reversed>
+		  <li></li>
+		</ol>
+		<dl>
+			<dt></dt>
+			<dd></dd>
+		</dl>
+	</div>
+
+	<!-- 小标签 （a、span、b、strong、em、dfn、i、del、img、area 、mark、pre） -->
+	<div>
+		<a href="logo_white.gif" download="logo">
+		<img src="logo_white.gif" alt="logo">
+		</a>
+		<span></span>
+		<b></b>
+		<strong>把文本定义为语气更强的强调的内容。</strong>
+		<em>把文本定义为强调的内容。</em>
+		<dfn>定义一个定义项目。</dfn>
+		<i></i>
+		<del></del>
+		<img src="../bg.jpg" alt="">
+		<area href="" alt="" target="" rel="" media="" type="">
+		<mark>milk</mark>
+		<pre></pre>
+	</div>
+
+	<!-- 不常用标签 （cite、kbd、bdi、bdo、ins、q、samp、bb、code、sub、sup、var、map、wbr）-->
+	<div>
+		<cite>定义引用。可使用该标签对参考文献的引用进行定义，比如书籍或杂志的标题。</cite>
+		<kbd>定义键盘文本。它表示文本是从键盘上键入的。它经常用在与计算机相关的文档或手册中。</kbd>
+		<samp>定义样本文本。</samp>
+		<code>定义计算机代码文本。</code>
+		<var>定义变量。</var>
+		<ins>标签定义已经被插入文档中的文本。</ins>
+		<bdi>标签允许您设置一段文本，使其脱离其父元素的文本方向设置。</bdi>
+		<bdo dir="ltr">元素可覆盖默认的文本方向。</bdo>
+		<q>标签定义短的引用。</q>
+		<sub></sub>
+		<sup></sup>
+		<wbr>所有浏览器都支持，除了 Internet Explorer。</wbr>
+		<map name="title">title</map>
+	</div>
+
+	<!-- 表单 （form、input、datalist、label、fieldset、legend、optgroup、select、option、textarea、button、keygen）-->
+	<form action="html_submit" method="get" accept-charset="utf-8">
+		<input type="url" list="url_list" name="link" />
+		<datalist id="url_list">
+			<option label="W3School" value="http://www.w3school.com.cn" />
+			<option label="Google" value="http://www.google.com" />
+			<option label="Microsoft" value="http://www.microsoft.com" />
+		</datalist>
+		<label>
+			<input type="text" name="" value=""></label>
+		<fieldset>
+			<legend>title or explanatory caption</legend>
+		</fieldset>
+		<optgroup>
+			<option value=""></option>
+		</optgroup>
+		<select name="" multiple>
+			<option value=""></option>
+			option
+		</select>
+		<textarea name=""></textarea>
+		<button type=""></button>
+	</form>
+
+	<!-- 媒体标签(video、audio、embed、track) -->
+	<video src="" preload autoplay loop controls muted poster="/images/video.png"></video>
+	<audio src="" preload autoplay loop controls muted></audio>
+
+	<!-- 其他功能标签(progress、time、canvas、details、keygen、output、source、menu) -->
+	<progress value="22" max="100"></progress> 
+	<time datetime="2018-02-14">情人节</time>
+	<canvas id="myCanvas"></canvas>
+	<details>
+		<summary>title or explanatory caption</summary>
+		<p>All pages and graphics on this web site are the property of W3School.</p>
+	</details>
+	<keygen keytype="rsa"></keygen>
+	<output name=""></output>
+	<source src="" type="" media="">
+	<menu type="context toolbar">
+		<li></li>
+	</menu>
+
+	<!-- 其它 (meter、noscript、param、ruby、rp、rt、command) -->
+	<meter value="" min="" low="" high="" max="" optimum=""></meter>
+	<noscript></noscript>
+	<param name="" value="">
+	<ruby>
+		<rt></rt>
+	</ruby>
+	<rp></rp>
+	<command type="command checkbox radio" label="Use Command" title="Use Command does stuff" icon="/icons/command.png">
+	
+	<!-- 不要的 (acronym、applet、basefont、big、small、center、dir、font、frame、frameset、isindex、noframes、s、strike、title、tt、u、xmp)-->
+
+</body>
+</html>
