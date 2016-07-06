@@ -1,94 +1,251 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
 <head>
-<meta charset="utf-8">
-<title>无标题文档</title>
-<meta name="Keywords" content="$SiteKeywords" />
-<meta name="Description" content="$SiteDescription " />
-<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-<meta name="renderer" content="webkit">
-<link rel="stylesheet" type="text/css" href="../glo/css/globle.css"/>
-<script type="text/javascript" src="../glo/js/jquery-1.11.1.min.js"></script>
-<style>
-h1{font-size:16px;}
-p{position:relative;z-index:2;height:200px;margin:300px 0 0 0;background:#fff;}
-p:after{position:absolute;z-index:3;top:0px;left:0;width:100%;height:1px;background:#ddd;content:'';box-shadow:0 0 30px 1px rgba(0,0,0,.9);}
-div{width:100px;height:100px;padding:10px;border-radius:61px;box-shadow:0 0 10px rgba(204,102,0,.8);background:#F6D66E;background:-moz-linear-gradient(top,#fff,#F6D66E);background:-webkit-linear-gradient(top,#fff,#F6D66E);background:-o-linear-gradient(top,#fff,#F6D66E);background:-ms-linear-gradient(top,#fff,#F6D66E);background:linear-gradient(top,#fff,#F6D66E);
-	-moz-transform:translate(600px,450px);
-	-webkit-transform:translate(600px,450px);
-	-o-transform:translate(600px,450px);
-	-ms-transform:translate(600px,450px);
-	transform:translate(600px,450px);
-	-moz-animation:animations2 1s ease,animations 6s ease 1s;
-	-webkit-animation:animations2 1s ease,animations 6s ease 1s;
-	-o-animation:animations2 1s ease,animations 6s ease 1s;
-	-ms-animation:animations2 1s ease,animations 6s ease 1s;
-	animation:animations2 1s ease,animations 6s ease 1s;
-}
-@-webkit-keyframes animations{
-	0%{-webkit-transform:translate(0,0);}
-	55%{-webkit-transform:translate(480px,360px);}
-	100%{-webkit-transform:translate(600px,450px);}
-}
-@-moz-keyframes animations{
-	0%{-moz-transform:translate(0,0);}
-	55%{-moz-transform:translate(480px,360px);}
-	100%{-moz-transform:translate(600px,450px);}
-}
-@-o-keyframes animations{
-	0%{-o-transform:translate(0,0);}
-	55%{-o-transform:translate(480px,360px);}
-	100%{-o-transform:translate(600px,450px);}
-}
-@-ms-keyframes animations{
-	0%{-ms-transform:translate(0,0);}
-	55%{-ms-transform:translate(480px,360px);}
-	100%{-ms-transform:translate(600px,450px);}
-}
-@keyframes animations{
-	0%{transform:translate(0,0);}
-	55%{transform:translate(480px,360px);}
-	100%{transform:translate(600px,450px);}
-}
-@-moz-keyframes animations2{
-	0%{-moz-transform:translate(0,0);}
-	100%{-moz-transform:translate(0,0);}
-}
-@-webkit-keyframes animations2{
-	0%{-webkit-transform:translate(0,0);}
-	100%{-webkit-transform:translate(0,0);}
-}
-@-o-keyframes animations2{
-	0%{-o-transform:translate(0,0);}
-	100%{-o-transform:translate(0,0);}
-}
-@-ms-keyframes animations2{
-	0%{-ms-transform:translate(0,0);}
-	100%{-ms-transform:translate(0,0);}
-}
-@keyframes animations2{
-	0%{transform:translate(0,0);}
-	100%{transform:translate(0,0);}
-}
-
-
-div
-{
-animation: myfirst 5s linear 2s infinite alternate;
-/* Firefox: */
--moz-animation: myfirst 5s linear 2s infinite alternate;
-/* Safari 和 Chrome: */
--webkit-animation: myfirst 5s linear 2s infinite alternate;
-/* Opera: */
--o-animation: myfirst 5s linear 2s infinite alternate;
-}
-
-</style>
+    <meta charset="utf-8" />
+    <title>animation_CSS参考手册_web前端开发参考手册系列</title>
+    <meta name="author" content="Joy Du(飘零雾雨), dooyoe@gmail.com, www.doyoe.com" />
+    <style>
+    div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        overflow: hidden;
+        width: 300px;
+        height: 150px;
+        margin: -75px 0 0 -150px;
+        border: 3px solid #eee;
+        background: #e0e0e0;
+    }
+    
+    span {
+        display: block;
+        height: 50px;
+        font: bold 14px/50px Georgia;
+    }
+    
+    .a1 {
+        -webkit-transform: translate(60px);
+        -moz-transform: translate(60px);
+        transform: translate(60px);
+        -webkit-animation: animations 2s ease-out forwards;
+        -moz-animation: animations 2s ease-out forwards;
+        animation: animations 2s ease-out forwards;
+    }
+    
+    @-webkit-keyframes animations {
+        0% {
+            -webkit-transform: translate(0);
+            opacity: 0;
+        }
+        50% {
+            -webkit-transform: translate(30px);
+            opacity: 1;
+        }
+        70% {
+            -webkit-transform: translate(35px);
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: translate(60px);
+            opacity: 0;
+        }
+    }
+    
+    @-moz-keyframes animations {
+        0% {
+            -moz-transform: translate(0);
+            opacity: 0;
+        }
+        50% {
+            -moz-transform: translate(30px);
+            opacity: 1;
+        }
+        70% {
+            -moz-transform: translate(35px);
+            opacity: 1;
+        }
+        100% {
+            -moz-transform: translate(60px);
+            opacity: 0;
+        }
+    }
+    
+    @keyframes animations {
+        0% {
+            transform: translate(0);
+            opacity: 0;
+        }
+        50% {
+            transform: translate(30px);
+            opacity: 1;
+        }
+        70% {
+            transform: translate(35px);
+            opacity: 1;
+        }
+        100% {
+            transform: translate(60px);
+            opacity: 0;
+        }
+    }
+    
+    .a3 {
+        opacity: 0;
+        -webkit-transform: translate(100px);
+        -moz-transform: translate(100px);
+        transform: translate(100px);
+        -webkit-animation: animations3 2s ease-out 2s forwards;
+        -moz-animation: animations3 2s ease-out 2s forwards;
+        animation: animations3 2s ease-out 2s forwards;
+    }
+    
+    @-webkit-keyframes animations3 {
+        0% {
+            -webkit-transform: translate(160px);
+            opacity: 0;
+        }
+        50% {
+            -webkit-transform: translate(130px);
+            opacity: 1;
+        }
+        70% {
+            -webkit-transform: translate(125px);
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: translate(100px);
+            opacity: 0;
+        }
+    }
+    
+    @-moz-keyframes animations3 {
+        0% {
+            -moz-transform: translate(160px);
+            opacity: 0;
+        }
+        50% {
+            -moz-transform: translate(130px);
+            opacity: 1;
+        }
+        70% {
+            -moz-transform: translate(125px);
+            opacity: 1;
+        }
+        100% {
+            -moz-transform: translate(100px);
+            opacity: 0;
+        }
+    }
+    
+    @keyframes animations3 {
+        0% {
+            transform: translate(160px);
+            opacity: 0;
+        }
+        50% {
+            transform: translate(130px);
+            opacity: 1;
+        }
+        70% {
+            transform: translate(125px);
+            opacity: 1;
+        }
+        100% {
+            transform: translate(100px);
+            opacity: 0;
+        }
+    }
+    
+    .a2 {
+        opacity: 0;
+        text-align: center;
+        font-size: 26px;
+        -webkit-animation: animations2 5s ease-in-out 4s forwards;
+        -moz-animation: animations2 5s ease-in-out 4s forwards;
+        animation: animations2 5s ease-in-out 4s forwards;
+    }
+    
+    @-webkit-keyframes animations2 {
+        0% {
+            opacity: 0;
+        }
+        40% {
+            opacity: .8;
+        }
+        45% {
+            opacity: .3;
+        }
+        50% {
+            opacity: .8;
+        }
+        55% {
+            opacity: .3;
+        }
+        60% {
+            opacity: .8;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    
+    @-moz-keyframes animations2 {
+        0% {
+            opacity: 0;
+        }
+        40% {
+            opacity: .8;
+        }
+        45% {
+            opacity: .3;
+        }
+        50% {
+            opacity: .8;
+        }
+        55% {
+            opacity: .3;
+        }
+        60% {
+            opacity: .8;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    
+    @keyframes animations2 {
+        0% {
+            opacity: 0;
+        }
+        40% {
+            opacity: .8;
+        }
+        45% {
+            opacity: .3;
+        }
+        50% {
+            opacity: .8;
+        }
+        55% {
+            opacity: .3;
+        }
+        60% {
+            opacity: .8;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    </style>
 </head>
+
 <body>
-<h1>太阳将在1s后开始下山：</h1>
-<div></div>
-<p></p>
+    <div>
+        <span class="a1">CSS3 Animations</span>
+        <span class="a2">CSS3 Animations</span>
+        <span class="a3">CSS3 Animations</span>
+    </div>
 </body>
+
 </html>
-			
