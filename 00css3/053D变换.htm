@@ -17,8 +17,8 @@ body {
     margin: 1.5em auto;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transform: rotateX(-30deg) rotateY(30deg);
-    transform: rotateX(-30deg) rotateY(30deg);
+    /* -webkit-transform: rotateX(-30deg) rotateY(30deg); */
+    transform: rotateX(-45deg) rotateY(45deg);
 }
 .cube > div {
     position: absolute;
@@ -30,34 +30,54 @@ body {
     text-align: center;
     line-height: 2em;
 }
-.front {
-    -webkit-transform: translateZ(1em);
-    transform: translateZ(1em);
+.cube .base{
+    /* background: #000; */
+    background: rgba(0, 0, 0, .5);
 }
+.front {
+    /* display: none; */
+    /* -webkit-transform: translateZ(1em);
+    transform: translateZ(1em); */
+    transform:translateZ(1em);
+    
+}
+
 .top {
-    -webkit-transform: rotateX(90deg) translateZ(1em);
-    transform: rotateX(90deg) translateZ(1em);
+    transform:rotateX(90deg) translateZ(1em);
+    /* display: none; */
+   /*  -webkit-transform: rotateX(90deg) translateZ(1em);
+    transform: rotateX(90deg) translateZ(1em); */
+
 }
 .right {
-    -webkit-transform: rotateY(90deg) translateZ(1em);
-    transform: rotateY(90deg) translateZ(1em);
+    /* display: none; */
+    /* -webkit-transform: rotateY(90deg) translateZ(1em);
+    transform: rotateY(90deg) translateZ(1em); */
+    transform:rotateY(-90deg)  translateZ(-1em) ;
 }
 .left {
+    /* display: none;
     -webkit-transform: rotateY(-90deg) translateZ(1em);
-    transform: rotateY(-90deg) translateZ(1em);
+    transform: rotateY(-90deg) translateZ(1em); */
+    transform:rotateY(-90deg) translateZ(1em);
 }
 .bottom {
+    /* display: none;
     -webkit-transform: rotateX(-90deg) translateZ(1em);
-    transform: rotateX(-90deg) translateZ(1em);
+    transform: rotateX(-90deg) translateZ(1em); */
+    transform:rotateX(-90deg) translateZ(1em);
 }
 .back {
-    -webkit-transform: rotateY(-180deg) translateZ(1em);
     transform: rotateY(-180deg) translateZ(1em);
+    /* display: none;
+    -webkit-transform: rotateY(-180deg) translateZ(1em);
+    transform: rotateY(-180deg) translateZ(1em); */
 }
 </style>
 </head>
 <body>
 <div class="cube">
+    <!-- <div class="base">0</div> -->
     <div class="front">1</div>
     <div class="back">2</div>
     <div class="right">3</div>
